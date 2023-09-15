@@ -1,0 +1,75 @@
+.container_header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .contenedor_descripcion_home{
+    width: 400px;
+    display: flex;
+  }
+  
+  .header_texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-left: 60px;
+  }
+  
+  .nombre {
+    font-size: 40px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    color: #e7dede;
+    margin-top: 10px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .profesion {
+    font-size: 25px; /* Tamaño de fuente más grande */
+    color: #8ecae4;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .boton_curriculum{
+    width: 110px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  .container_header button:hover{
+    background-color: #8ecae4;
+    color:#000000;
+    transform: scale(1.1);
+  }
+
+  .descripcion_home{
+    font-size: 25px; /* Tamaño de fuente más grande */
+    color: #f5f7f6;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  .header_img{
+    width: 50%;
+    margin-left: 20px;
+  
+  }
+  
+  .header_img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+  }
+  

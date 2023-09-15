@@ -1,0 +1,42 @@
+.container_sobremi {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_img_sobre_mi{
+    width: 50%;
+    height: 50%;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_img_sobre_mi img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 40%;
+    margin-left: 15%;
+    }
+
+.contenedor_info_SMI{
+    width: 50%;
+    height: 50%;
+    margin-right: 30px;
+}
+.titulo_sobremi{
+    font-size: 30px;
+    color: #8ecae4;
+}
+.parrafos_sobremi{
+    color: white;
+}
+
+.description_sobremi{
+    font-size: 20px;
+    color: beige;
+}

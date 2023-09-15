@@ -1,0 +1,30 @@
+ .container_cards{
+    width: 260px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Ajusta el margen según tu diseño */
+    
+}
+
+.container_cards img{
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.titulo_Cards {
+    font-size: 20px;
+    color: #8ecae4;
+    margin: 10px 0;
+}

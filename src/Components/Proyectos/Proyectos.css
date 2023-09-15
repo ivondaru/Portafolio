@@ -1,0 +1,84 @@
+.contenedor_proyectos{
+    background-color: rgb(0, 0, 0);
+    width: 700px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5% / 10%;
+}
+
+.contenedor_descripcion_proyects{
+    width: 300px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2{
+    color: #8ecae4;
+}
+
+.descripcion_proyectos{
+    color: rgb(158, 165, 170);
+}
+
+
+.contenedor_leng_utili{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contenedor_img_proyects img{
+    width: 330px;
+    height: 200px;
+}
+
+
+.imgs_leng_utilizados{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.redes_proyect{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10%; 
+}
+
+.imgs_proyecto{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.boton_ver_mas button  {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #8ecae4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+}
+
+.contenedor_proyectos .boton_ver_mas button:hover{
+    background-color: #e2f1f8;
+    color:#000000;
+    transform: scale(1.1);
+}
